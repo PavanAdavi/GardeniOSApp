@@ -15,6 +15,7 @@
 		8BB2C5371BCA4B0200E843ED /* ServiceXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2C5361BCA4B0200E843ED /* ServiceXTests.swift */; };
 		8BB2C5421BCA4B0200E843ED /* ServiceXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2C5411BCA4B0200E843ED /* ServiceXUITests.swift */; };
 		8BB2C5501BCAE41200E843ED /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2C54F1BCAE41200E843ED /* RootTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		8BB2C5521BCE16AC00E843ED /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2C5511BCE16AC00E843ED /* UIViewExtensions.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8BB2C5411BCA4B0200E843ED /* ServiceXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceXUITests.swift; sourceTree = "<group>"; };
 		8BB2C5431BCA4B0200E843ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB2C54F1BCAE41200E843ED /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		8BB2C5511BCE16AC00E843ED /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8BB2C52A1BCA4B0200E843ED /* LaunchScreen.storyboard */,
 				8BB2C52D1BCA4B0200E843ED /* Info.plist */,
 				8BB2C54F1BCAE41200E843ED /* RootTableViewController.swift */,
+				8BB2C5511BCE16AC00E843ED /* UIViewExtensions.swift */,
 			);
 			path = ServiceX;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				8BB2C5241BCA4B0200E843ED /* ViewController.swift in Sources */,
 				8BB2C5501BCAE41200E843ED /* RootTableViewController.swift in Sources */,
+				8BB2C5521BCE16AC00E843ED /* UIViewExtensions.swift in Sources */,
 				8BB2C5221BCA4B0200E843ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +491,7 @@
 				8BB2C5481BCA4B0200E843ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BB2C5491BCA4B0200E843ED /* Build configuration list for PBXNativeTarget "ServiceXTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +500,7 @@
 				8BB2C54B1BCA4B0200E843ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BB2C54C1BCA4B0200E843ED /* Build configuration list for PBXNativeTarget "ServiceXUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +509,7 @@
 				8BB2C54E1BCA4B0200E843ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

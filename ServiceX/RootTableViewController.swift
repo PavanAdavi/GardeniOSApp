@@ -10,7 +10,7 @@ import UIKit
 
 class RootTableViewController: UITableViewController {
 
-    let cellArray = ["WelcomeCell","confirmphonecell"]
+    let cellArray = ["WelcomeCell","confirmphonecell","getstartedcell"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +22,7 @@ class RootTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
+    
     override func viewWillAppear(animated: Bool) {
         self.navigationController?.navigationBarHidden = true;
     }
@@ -44,10 +45,13 @@ class RootTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if(indexPath.row == 0) {
-            return 135;
+            return 150;
         }
         if(indexPath.row == 1) {
-            return 145;
+            return 160;
+        }
+        if(indexPath.row == 2) {
+            return 135;
         }
         return 90;
     }
